@@ -1,0 +1,235 @@
+.rectangle {
+  width: 260px;
+  height: 682px;
+  margin: 27px 45px 8px 113px;
+  padding: 17px 25px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+}
+.rectangle:hover{
+  background-color: rgba(255, 95, 71, 0.89);
+    color: white;
+}
+
+button{
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    margin: 15px 861px 13px 102px;
+    padding: 1px 10px 4px;
+    font-family: Poppins;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    color:#ce0505;
+    background-color: #ffffff;
+    border: none;   
+}
+button:hover{
+  color: tomato;
+}
+.filterMenuHeader{
+  color: #192f60;
+  margin-left: 113px;
+  font-size: 36px;
+  font-family: Poppins;
+}
+.filterMenuHeader:hover{
+  color: #8c96ab;
+}
+.header{
+    background-color:#ce0505;
+    height: 80px;
+    width:100%;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.header:hover {transform: rotate(360deg);background-color: tomato;}
+.header:hover > button {
+  color: tomato;
+}
+.header:hover > #login {
+  background-color: tomato;
+}
+.header:hover > #create {
+  background-color: tomato;
+}
+#login{
+    width: 43px;
+    height: 23px;
+    margin: 12px 26px 11px 0;
+    background-color: #ce0505;
+    border: none;
+    color: #ffffff;
+}
+
+#create{
+    padding: 10px 15px 10px 15px;
+    background-color: #ce0505;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+#create:hover{
+  background-color: tomato;
+}
+  .Items {
+    width: 794px;
+    height: 291px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--white);
+    margin-bottom: 30px;
+    margin-top: 26px;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  .Items:hover {
+    background-color: rgba(255, 95, 71, 0.89);
+    color: white;
+  }
+  /* The animation code */
+/* @keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+} */
+
+  .Filters {
+    width: 55px;
+    height: 25px;
+    margin: 0 154px 10px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  .Select-Location {
+    width: 106px;
+    height: 20px;
+    margin: 10px 102px 11px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .dropdown {
+    width: 208px;
+    font-family: Poppins;
+    margin: 0 61.1px 0 0;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    color: #8c96ab;
+  }
+  .Cuisine {
+    width: 51px;
+    height: 20px;
+    margin: 22px 157px 15px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+.check{
+    width: 20px;
+    height: 18px;
+    border: 10px solid #3a5075;
+    }
+.head{
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Poppins;
+  vertical-align: top;
+  color: #8c96ab;
+ }
+ .Cost{
+  width: 89px;
+  height: 20px;
+  margin: 26px 119px 15px 1px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight:400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.radiobutton{
+  width: 20px;
+  height: 18px;
+  border: 1.5px solid #435c86;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+.Sort {
+  width: 37px;
+  height: 25px;
+  margin: 29px 172px 15px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.Pic1 {
+  width: 120px;
+  height: 120px;
+  margin: 0 41px 31px 0;
+  object-fit: fit;
+  border: 1px none;
+  border-radius: 10px;
+}
+FORT {
+  width: 39px;
+  height: 23px;
+  margin: 5px 521.4px 15px 46px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+  .pagination a {
+    color:blue;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #8c96ab;
+    border-radius: 5px;
+  }
+  
+  .pagination a.active {
+    background-color:#8c96ab;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
